@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 
-		<title>JQuery - Eventos Teclado</title>
+		<title>JQuery - Eventos Formulário</title>
 
 		<!-- jquery -->
 		<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
@@ -11,12 +11,12 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				
-				//keydown
-				//keypress
-				//keyup
+				//focus
+				//blur
+				//change
 				
-				$('#campo1').keydown(function(){
-					alert('Botão foi pressionado');
+				$('#campo1').blur(function(){
+					alert('Elemento deixou o focus');
 				});
 			});
 		</script>
