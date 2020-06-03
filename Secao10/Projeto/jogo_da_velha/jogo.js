@@ -45,6 +45,7 @@ $(document).ready( function(){
 	$('.jogada').click( function(){
 
 		var id_campo_clicado = this.id;
+		$('#'+id_campo_clicado).off() // destiva a opção de clique
 		jogada(id_campo_clicado);
 	});
 
