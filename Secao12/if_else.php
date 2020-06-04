@@ -1,6 +1,6 @@
 <?php
 
-    // operadores
+    // operadores de comparação
     // == (Igual)
     // === (idêntico)
     // != ou <> (diferente)
@@ -9,6 +9,12 @@
     // > (maior)
     // <= (menor igual)
     // >= (maior igual)
+
+    //operadores lógicos
+    // && ou AND (e)
+    // || ou OR (ou)
+    // XOR (xor)
+    // ! (negação)
 
     if(true) {
         echo 'sim, expressão é verdadeira';
