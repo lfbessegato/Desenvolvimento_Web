@@ -18,7 +18,7 @@
 			</div>
   			<div class="row">
     			<div class="col-md-4">
-    				<form role="form" action="catalogo_produtos.php" method="get">
+    				<form role="form" action="catalogo_produtos.php" method="post">
 					  <div class="form-group">
 					    <label for="Produto">Nome do produto:</label>
 					    <select class="form-control" name="id_produto" id="id_produto">
@@ -43,7 +43,7 @@
 					<div class="col-md-4">
 						<?php
 							
-							$id_produto = $_GET['id_produto'];
+							$id_produto = $_POST['id_produto'];
 
 							$detalhes[1] = "Detalhes da cadeira";
 							$detalhes[2] = "Detalhes do fogão";
