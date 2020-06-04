@@ -8,16 +8,39 @@
 
 	<body>
 		<?php
-			// este é um comentário de apenas 1 linhas
-			echo 'Teste tag padrão<br />';
-			print 'Teste de impressão com o print<br />';
-		?>
-		/* 
-			Este é um comentário de multilinhas
-		*/
+			//int
+			$valor_inteiro = 1 * 4;
+			echo $valor_inteiro;
 
-		# Este é uma outra forma de comentar
-		<?='Teste tag impressão'?>
+			echo '<br />';
+
+			$valor_inteiro = $valor_inteiro * 2;
+			echo $valor_inteiro;
+			echo '<br />';
+
+			//float
+			$valor_fracionado = 10.7;
+			echo $valor_fracionado;
+
+			echo '<br />';
+
+			//boolean
+			$estado = true; //verdadeiro = 1, false = 0
+			echo $estado;
+			echo '<br />';
+
+			//string
+			$texto = 'Curso de php';
+			echo $texto;
+			echo '<br />';
+			$texto =  " Curso de PHP concatenado $valor_inteiro";
+			echo $texto;
+
+
+			//arrays
+
+		?>
+		
 		
 	</body>
 </html>
