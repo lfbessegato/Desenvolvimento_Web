@@ -8,36 +8,21 @@
 
 	<body>
 		<?php
-			//int
-			$valor_inteiro = 1 * 4;
-			echo $valor_inteiro;
-
-			echo '<br />';
-
-			$valor_inteiro = $valor_inteiro * 2;
-			echo $valor_inteiro;
-			echo '<br />';
-
-			//float
-			$valor_fracionado = 10.7;
-			echo $valor_fracionado;
-
-			echo '<br />';
-
-			//boolean
-			$estado = true; //verdadeiro = 1, false = 0
-			echo $estado;
-			echo '<br />';
-
-			//string
-			$texto = 'Curso de php';
-			echo $texto;
-			echo '<br />';
-			$texto =  " Curso de PHP concatenado $valor_inteiro";
-			echo $texto;
-
-
 			//arrays
+			$lista_compras[1] = 'feijao';
+			$lista_compras[2] = 'Banana';
+			$lista_compras[3] = 'Morango';
+
+			$lista_compras1 = array(1 => 'Chocolate', 2 => 'Bolacha');
+
+			var_dump($lista_compras);
+			echo '<br />';
+			print_r($lista_compras);
+			echo '<br />';
+			echo $lista_compras[2];
+
+			echo '<br />';
+			var_dump($lista_compras1);
 
 		?>
 		
