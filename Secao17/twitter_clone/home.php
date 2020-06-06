@@ -39,7 +39,7 @@
 
 								$('#texto_tweet').val('');
 								
-								alert('Tweet incluído com sucesso!!!');
+								atualizaTweet();
 
 							}
 
