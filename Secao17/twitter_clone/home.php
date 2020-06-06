@@ -36,8 +36,10 @@
 							data: $('#form_tweet').serialize(),
 
 							success: function(data){
+
+								$('#texto_tweet').val('');
 								
-								alert(data);
+								alert('Tweet incluído com sucesso!!!');
 
 							}
 
