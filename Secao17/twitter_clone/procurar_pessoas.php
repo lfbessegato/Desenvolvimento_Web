@@ -39,6 +39,28 @@
 
 								$('#pessoas').html(data);
 
+								$('.btn_seguir').click(function(){
+
+									var id_usuario = $(this).data('id_usuario');
+
+									$.ajax({
+
+										url: 'seguir.php',
+
+										method: 'POST',
+
+										data: { seguir_id_usuario : id_usuario },
+
+										success: function(data){
+
+											alert("Registro efetuado com sucesso!");
+
+										}
+
+									});
+
+								});
+
 							}
 
 						});

@@ -28,7 +28,7 @@
 
                 echo '<p class="list-group-item-text pull-right">';
 
-                    echo '<button type="button" class="btn btn-default">Seguir</button>';
+                    echo '<button type="button" class="btn btn-default btn_seguir" data-id_usuario="' . $registro['id'] . '">Seguir</button>';
                 
                 echo '</p>';
 
